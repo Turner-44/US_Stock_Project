@@ -1,6 +1,6 @@
 import configValue from './config.mjs';
-import * as buttonAction from './stockSearchButton.js';
-import * as tableCreation from './stockSearchTableCreation.js';
+import * as buttonAction from '../stockSearchButton.js';
+import * as tableCreation from '../stockSearchTableCreation.js';
 
 const configFile = new configValue(); 
 
