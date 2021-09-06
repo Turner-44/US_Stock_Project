@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <title>Home Page</title>
+</head>
+<body>
+    <div id="page">
+        <div id="pageHeader"><h1 id="PageTitle">Stock Search</h1></div>
+        <div id="seacrchDivSection" class="seacrchDivSectionDisplay">
+            <input id="searchInput1" class="searchInput" type="text" tabindex="1"/> 
+            <input id="submitSearchBtn" class="button buttonClick" type="button" value="Search"/> 
+            <input id="addSearchInputBtn" class="button buttonClick" type="button" value="Add Search Value"/>
+            <input id="removeSearchInputBtn" class="button buttonClick" type="button" value="Remove Search Box"/>
+        </div>
+        <div id="editSearchInputsContainer">
+            <input id="editSearchInputBtn" class="button buttonClick" type="button" value="Edit Search Values"/>
+        </div>
+    </div>
+    <div id="loadingContainer">
+        <h1 id="loadingPopUp">Loading...</h1>
+    </div>
+    <div id="searchResultDisplay">
+        <div id="tableBackground">
+            <div id="jsonResult">
+                <table id="displayTable">
+                </table>
+            </div>
+        </div>
+        <div id="pageSelectionDiv">
+            <a id="displaySummary" class="tableConstructor" href=#>Summary</a>
+            <a id="displayDividend" class="tableConstructor" href=#>Dividend</a>
+            <a id="displayStats" class="tableConstructor" href=#>Stats</a>
+        </div>
+    </div>
+
+
+    <script src="/jquery-6.14.9.min.js"></script>
+    <script src="config.mjs" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.1/underscore-umd-min.js"></script>
+    <script src="stockSearch.js" type="module"></script>
+</body>
+</html>

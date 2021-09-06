@@ -1,0 +1,184 @@
+
+#seacrchDivSection{
+    margin: 25px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.searchInput{
+    margin-bottom: 5px;
+    padding: 7.5px 16px;
+}
+
+#editSearchValues{
+    margin-bottom: 5px;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px black solid;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+
+th,td{
+    border: 1px black solid;
+    padding: 5px;
+}
+
+.locatorPostivechangePercent{
+    color:green;
+    font-weight: bold;
+}
+
+.locatorNegativechangePercent{
+    color:red;
+    font-weight: bold;
+}
+
+.locatorNochangeChangePercent{
+    color:gray;
+    font-weight: bold;
+}
+
+#tableBackground{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #047775;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#displayTable{
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFAFB;
+}
+
+#pageSelectionDiv{
+    text-align: center;
+}
+
+.tableConstructor{
+    border-top: 2px solid #293241;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    background-color: #afe7e7;
+    padding: 7.5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 0px 0px 10px 10px;
+    opacity: 0.3;
+}
+
+.tableConstructor:hover{
+    opacity: 1;
+}
+
+.tableConstructorSelected{
+    opacity: 0.7;
+}
+
+#jsonResult{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #FFFAFB; 
+}
+
+body{
+    background-color: #293241;
+}
+
+#pageHeader{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 10px;
+    background-color: #FFFAFB;
+    border-radius: 10px;
+    color: white;
+    background-color: #1052BC;
+}
+
+h1{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.button{
+    border: none;
+    color: white;
+    padding: 7.5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.buttonClick:active{
+    box-shadow: 1px 1px 1px rgb(202, 200, 200);
+}
+
+#submitSearchBtn{
+    background-color: #4CAF50;
+}
+
+#addSearchInputBtn{
+    background-color: #008CBA;
+}
+
+#removeSearchInputBtn{
+    background-color: #f44336;
+}
+
+#searchResultDisplay{
+    visibility: hidden;
+}
+
+#editSearchInputsContainer{
+    display: none;
+    margin-bottom: 15px;
+}
+
+#editSearchInputBtn{
+    background-color: #eb12d9;
+    margin-left: 87.5%;
+}
+
+#loadingPopUp{
+    position:relative;
+    text-align: center;
+
+}
+
+#loadingContainer{
+    display: none;
+    margin: 0 auto;
+    width: 500px;
+    padding: 30px;
+    background-color: #FFFAFB;
+    border-radius: 10px;
+    animation: pulse 2s ease infinite;
+}
+
+
+@keyframes pulse {
+    0%{ opacity: 0 }
+    50%{ opacity: 1 }
+    100%{ opacity: 0 }
+}
+
+
+
