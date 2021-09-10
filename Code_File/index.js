@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 
 app.listen(4000, (err) => {
     if(err) {
-        console.log('Something went wrong', err)
+        console.log('Something went wrong ops', err)
     } else {
         console.log('Server is running...');  
     }
